@@ -1,0 +1,4 @@
+C:\Users\Ivana\Documents\Visual Studio 2012\Projects\SkolaKosarke\ClassLibrary1\bin\Debug\SkolaKosarke.Model.dll
+C:\Users\Ivana\Documents\Visual Studio 2012\Projects\SkolaKosarke\ClassLibrary1\bin\Debug\SkolaKosarke.Model.pdb
+C:\Users\Ivana\Documents\Visual Studio 2012\Projects\SkolaKosarke\ClassLibrary1\obj\Debug\SkolaKosarke.Model.dll
+C:\Users\Ivana\Documents\Visual Studio 2012\Projects\SkolaKosarke\ClassLibrary1\obj\Debug\SkolaKosarke.Model.pdb

@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="SkolaKosarke.Model.Utakmica" Collapsed="true">
+    <Position X="14.5" Y="6.25" Width="1.5" />
+    <AssociationLine Name="StatistikeIgraca" Type="SkolaKosarke.Model.Statistika">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.409" Y="0.048" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AgACAgAAAAAAAAAAAAAAAAAAAAACAAAQAgAAEAqAAiI=</HashCode>
+      <FileName>Utakmica.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ProtivnickiKlub" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="StatistikeIgraca" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SkolaKosarke.Model.Adresa" Collapsed="true">
+    <Position X="15.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAIABAACAEQAAABAAAAAAAAQAAAAEA=</HashCode>
+      <FileName>Adresa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkolaKosarke.Model.BiljeskaOIgracu" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAAAABAAAAAAAAAAAAABAAAACQAAAAgAAAAAAAgA=</HashCode>
+      <FileName>BiljeskaOIgracu.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Igrac" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SkolaKosarke.Model.Clanarina" Collapsed="true">
+    <Position X="3.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAQAAAAAAAAAAAAgAAAAIACAAAAAiACAAAgAAAAAA=</HashCode>
+      <FileName>Clanarina.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="PlatiliClanarinu" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SkolaKosarke.Model.GrupaTreninga" Collapsed="true">
+    <Position X="6.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAIAAAAAAAAAAAAQAACAEAAAAAAAA=</HashCode>
+      <FileName>GrupaTreninga.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="IgraciUGrupi" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SkolaKosarke.Model.Igrac" Collapsed="true">
+    <Position X="6.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEUAABBEgAEAAEAAQABgAEAAAAAAAQAAAAEAAQ=</HashCode>
+      <FileName>Igrac.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkolaKosarke.Model.Liga" Collapsed="true">
+    <Position X="8.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABAABAAwAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Liga.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkolaKosarke.Model.Natjecanje" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACABAAIAAAECAAAAgAAAAIAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Natjecanje.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Utakmice" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SkolaKosarke.Model.PrijateljskaUtakmica" Collapsed="true">
+    <Position X="13" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PrijateljskaUtakmica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkolaKosarke.Model.ProtivnickiKlub" Collapsed="true">
+    <Position X="15" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAEAAAAAAAAAEAAAABAAAgAAAAIAAAAAAAAAgA=</HashCode>
+      <FileName>ProtivnickiKlub.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Adresa" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SkolaKosarke.Model.Statistika" Collapsed="true">
+    <Position X="14.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCAIAAgACAAAAAgAAQAIBAEAAAQAAAAAAAAAAQEgA=</HashCode>
+      <FileName>Statistika.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Igrac" />
+      <Property Name="Utakmica" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SkolaKosarke.Model.Trening" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAAAAAAAAAAAAAAAAAAAAACAAAQCwAAAAEAAgA=</HashCode>
+      <FileName>Trening.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="IgraciNaTreningu" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SkolaKosarke.Model.Turnir" Collapsed="true">
+    <Position X="10.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAABAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Turnir.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkolaKosarke.Model.Factory.NatjecanjeFactory" Collapsed="true">
+    <Position X="4.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\NatjecanjeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkolaKosarke.Model.Factory.ProtivnickiKlubFactory">
+    <Position X="9.25" Y="8.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\ProtivnickiKlubFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkolaKosarke.Model.Repositories.BiljeskaOIgracuRepository" Collapsed="true">
+    <Position X="6.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAMAAAAAAAAAIAAAAAAEBAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\BiljeskaOIgracuRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="biljeske" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SkolaKosarke.Model.Repositories.ClanarinaRepository" Collapsed="true">
+    <Position X="3.25" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAQgAAAAAAAAAgAACAAAAAAAABAAAQAAgAAAAAAAAA=</HashCode>
+      <FileName>Repositories\ClanarinaRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="clanarine" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SkolaKosarke.Model.Repositories.GrupaTreningaRepository" Collapsed="true">
+    <Position X="6.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAACAAAAAAQBAABQAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\GrupaTreningaRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="grupe" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SkolaKosarke.Model.Repositories.IgracRepository" Collapsed="true">
+    <Position X="3.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAQAAAAAAAAAARAAABAAEQACAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\IgracRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="igraci" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SkolaKosarke.Model.Repositories.NatjecanjeRepository" Collapsed="true">
+    <Position X="10.5" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEAQAAAAAAAAAAAAAAAAEQAAAEBAAQQAIAAAAACEAAA=</HashCode>
+      <FileName>Repositories\NatjecanjeRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="natjecanja" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SkolaKosarke.Model.Repositories.ProtivnickiKlubRepository" Collapsed="true">
+    <Position X="12.25" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAQAAABAAAQAEAAAAAgAAAA=</HashCode>
+      <FileName>Repositories\ProtivnickiKlubRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="klubovi" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SkolaKosarke.Model.Repositories.TreningRepository" Collapsed="true">
+    <Position X="9.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQQAAABAAAQAAACIAAAAAAA=</HashCode>
+      <FileName>Repositories\TreningRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="treninzi" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

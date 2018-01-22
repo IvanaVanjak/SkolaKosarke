@@ -1,0 +1,7 @@
+C:\Users\Ivana\Documents\Visual Studio 2012\Projects\SkolaKosarke\SkolaKosarke.Test\bin\Debug\SkolaKosarke.Test.dll
+C:\Users\Ivana\Documents\Visual Studio 2012\Projects\SkolaKosarke\SkolaKosarke.Test\bin\Debug\SkolaKosarke.Test.pdb
+C:\Users\Ivana\Documents\Visual Studio 2012\Projects\SkolaKosarke\SkolaKosarke.Test\bin\Debug\SkolaKosarke.Model.dll
+C:\Users\Ivana\Documents\Visual Studio 2012\Projects\SkolaKosarke\SkolaKosarke.Test\bin\Debug\SkolaKosarke.Model.pdb
+C:\Users\Ivana\Documents\Visual Studio 2012\Projects\SkolaKosarke\SkolaKosarke.Test\obj\Debug\SkolaKosarke.Test.csprojResolveAssemblyReference.cache
+C:\Users\Ivana\Documents\Visual Studio 2012\Projects\SkolaKosarke\SkolaKosarke.Test\obj\Debug\SkolaKosarke.Test.dll
+C:\Users\Ivana\Documents\Visual Studio 2012\Projects\SkolaKosarke\SkolaKosarke.Test\obj\Debug\SkolaKosarke.Test.pdb
